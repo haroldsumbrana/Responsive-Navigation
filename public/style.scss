@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand:400,700|Poppins:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i|Open+Sans+Condensed:400,700|Varela+Round:400,400i|Nunito:300,400,400i,600,700|Montserrat:300,400,500,600,700";
+/* CSS Document */
+$font-one: 'Open Sans', sans-serif;
+$font-two: 'Quicksand', sans-serif;
+$font-three: 'Poppins', sans-serif;
+$font-four: 'Nunito', sans-serif;
+$font-five: 'Montserrat', sans-serif;
+$color-1: #0D6DD1;
+$color-2: #0078D3;
+$color-3: #343434;
+* {
+margin: 0;
+}
+
+a.router-link-exact-active.router-link-active {
+    color: #000 !important;
+    background: #ddd;
+}
+nav li a  {
+&:hover {
+	background: rgba(0, 0, 0, 0.40);
+    }
+}
+.center {
+text-align: center;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-self: center;
+align-items: center;
+align-content: center;
+height: 90vh;
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+.footer-container {
+width: 100%;
+position: fixed;
+bottom: 0;
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+text-transform: uppercase;
+	.footer-inner {
+	padding: 20px;
+		.footer-wrap {
+			h1 {
+			color: #000;
+			}
+		}
+	}
+}
